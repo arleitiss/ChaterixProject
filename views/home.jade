@@ -1,0 +1,47 @@
+doctype html
+html
+  head
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js")
+    script(src="/socket.io/socket.io.js", type="text/javascript")
+    script(src="script.js", type="text/javascript")
+    script(src="char.js", type="text/javascript")
+    script(src='socket.io-stream.js', type="text/javascript")
+
+    link(type="text/css", rel="stylesheet", href="http://fonts.googleapis.com/css?family=Ubuntu")
+  body(onload="autoscale();")
+    audio#audio(src="/sounds/chat_click.mp3")
+    audio#audio_dc(src="/sounds/disconnect.mp3")
+    link(href="styles/chat_window.css", rel="stylesheet")
+    meta(content="text/html; charset=utf-8", http-equiv="Content-Type")
+    title Chaterix.com Chat
+    #infoBox
+    #main_frame
+      #entry_window
+        #main_header Chaterix.com
+        #chatEntries
+      #online_window
+        #main_header_2 Online Users
+        #chatUsers
+      #chatBox
+        #chatFuncs
+         #iconsList(style='display: none;')
+         |   
+         input#emoticons(value='Emoticons', type='button')
+         |   
+         form#uploadForm(enctype='multipart/form-data', action='/api/photos', method='post')
+           input#userPhotoInput(type='file', name='userPhoto')
+           |  
+           |     
+           span#status
+           img#uploadedImage
+
+
+
+
+
+        textarea#messageInput
+        button#submit
+          | Submit
+          #enterNotice (enter)
+      #chatLogo
+        img(src="images/logo_black.png")

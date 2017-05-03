@@ -1,0 +1,65 @@
+* { 
+	margin: 0px;
+	padding: 0px;
+		font-family: 'Ubuntu', sans-serif;	
+}
+.builder_element{
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#CharBuilderParent{
+	position: absolute;
+	background: url("../images/char_elements/bg.png");
+
+	width: 648px;
+	height: 648px;
+}
+#CharBuilderControls img{
+	height: 40px;
+	cursor: pointer; 
+}
+#CharBuilderControls{
+	display: block;
+	margin-left: 68%;;
+	margin-top: -10%;
+	padding: 20px;
+}
+#CharBuilderControls div{
+	margin-top: 55px;
+}
+
+#Change{
+	width: 150px;
+	text-align: center;
+	margin-top: 15px;
+	height: 40px;
+	vertical-align: middle;
+}
+.builder_control_back{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+
+}
+.builder_control_front{
+
+
+}
+#builder_label{
+
+	height: 40px;
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 40px;
+	margin-top: -32px;
+}

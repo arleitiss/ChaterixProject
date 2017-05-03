@@ -1,0 +1,289 @@
+*{
+   margin: 0px;
+  padding: 0px;
+  	font-family: 'Ubuntu', sans-serif;	
+}
+html,body { height:90%;
+  background-color: #111111;
+}
+
+#home_header{
+  background-color: #111111;
+  color: #007FFF;
+  height: 100%;
+  width: 100%;
+}
+
+#home_footer{
+  //height: 300px;
+  height: 30%;
+  background-color: #EEEEEE;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+#header_logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  padding: 15px;
+  width: 40%;
+}
+#login{
+
+  width: 100%;
+  margin-top: 1%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#email_part{
+  height: 42px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+#email_field{
+  padding-left:10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  border: 1px #007FFF solid;
+  font-size: 18px;
+  height: 40px;
+  width: 250px;
+}
+#email_field:focus{
+    border: 1px solid #111111;
+}
+#email_label{
+  display: inline-block;
+  width: 90px;
+  padding-right: 10px;
+  line-height: 40px;
+  vertical-align: middle;
+  font-size: 18px;
+  text-align: right;
+}
+#login_button{
+  height: 100%;
+  border: 0px;
+  width: 100px;
+  margin-left: 1%;
+  background-color: #007FFF;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle; 
+}
+#login_button:hover{
+  background-color: #63B1FF;
+}
+
+#pass_part{
+
+  margin-top: 5px;
+  height: 42px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+#pass_label{
+  display: inline-block;
+  width: 90px;
+  padding-right: 10px;
+  line-height: 40px;
+  vertical-align: middle;
+  font-size: 18px;
+  text-align: right;
+}
+#pass_field{
+  padding-left:10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  font-size: 18px;
+  border: 1px #007FFF solid;
+  height: 40px;
+  width: 250px;
+}
+#pass_field:focus{
+  border: 1px solid #111111;
+}
+#reg_button{
+  height: 100%;
+  border: 0px;
+  width: 100px;
+  margin-left: 1%;
+  background-color: #007FFF;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+#reg_button:hover{
+    background-color: #63B1FF;
+}
+#error{
+  text-align: center;
+}
+#fail{
+  color: red;
+}
+#success img{
+width: 0px;
+}
+#success{
+  display: inline-block;
+  line-height: 100px;
+  margin-bottom: -30px;
+  background-position: center top;
+  background-image: url(../images/loading_symbol_small.gif);
+  background-repeat: no-repeat;
+}
+#reg_form{
+  padding: 1%;
+	background-color: #F5F5F5;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	width: 400px;
+	height: auto;
+}
+#input_field_reg{
+  float: left;
+  width: 100%;
+}
+#label{
+  font-size: 13px;
+  display: inline-block;
+  width: 23%;
+  height: 20px;
+  padding: 5px;
+  vertical-align: middle;
+  text-align: right;
+  color: #1F1F1F;
+}
+#input_field_reg input{
+  width: calc(100% - 190px);
+  height: 15px;
+  vertical-align: middle;
+  padding: 15px;
+  margin: 5px;
+}
+#dob_selector input{
+  margin-left: 1px;
+  width: calc((100% / 3) - 91px);
+}
+#reg_button_sub{
+  display: inline-block;
+  border: 0px;
+  line-height: 0px;
+  background-color: #007FFF;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+#input_field_reg #reg_button_sub{
+  width: 100px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+#capuchino div{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+#capuchino{
+  padding: 15px;
+}
+#input_error{
+  color: red;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
+}
+#discard_button{
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/close.png);
+  background-size: 30px 30px;
+  border: 0px;
+  color: red;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+#discard{
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+#discard_button:hover{
+  opacity: 0.6;
+}
+#hits{
+width: 400px;
+display: inline-block;
+
+}
+#hits_counter{
+display: inline-block;
+	
+}
+#online{
+width: 400px;
+}
+#online_counter{
+display: inline-block;
+}
+.fine{
+color: green;
+}
+.bad{
+color: red;
+}
+#status_report, #statReport{
+display: inline;
+}
+
+#newsTab{
+  background-color: #007FFF;;
+  position: absolute;
+  width: 35vh;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  right: 0;
+  top: 30%;
+}
+.newsPiece{
+    font-size: 1.3vh;
+    padding: 5px;
+    padding-left: 15px;
+    color: #303030;
+    display: list-item;
+    font-weight: normal;
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: #eeeeee;
+    margin-top: 1px;
+}
+.newsDate{
+  text-align: right;
+  font-size: 1vh;
+  color: grey;
+}
+.newsTitle{
+  font-size: 1.3vh;
+  font-weight: bold;
+}
+.newsDesc{
+  font-size: 1.2vh;
+  color: #007FFF;;
+}
+#newsLabel{
+  color: white;
+  line-height: 2vh;
+  
+}

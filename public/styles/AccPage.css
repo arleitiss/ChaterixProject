@@ -1,0 +1,572 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Ubuntu', sans-serif;	
+	}
+body{
+	background-color: #111111;
+
+}
+#MainBody{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+}
+#AccountFrame{
+	width: 100%;
+	padding: 15px;
+	height: 100%;
+	background-color: #eeeeee;
+	display: inline-block;
+}
+#StatsData{
+	font-size: 17px;
+}
+#StatsData div{
+	margin: 2px;
+}
+#DataFrame{
+	display: inline-block;
+	font-size: 2.0vh;
+	padding: 15px;
+	background-color: #eeeeee;
+	border-radius-top: 4px;
+	width: 100%;
+	text-align: right;
+}
+#controlData{
+	float: left;
+}
+#controlData input{
+	margin: 2px;
+	font-size: 1.5vh;
+	height: 2.5vh;
+	width: 120px;
+	background-color: transparent;
+	border: none;
+	text-align: left;
+	color: grey;
+}
+#controlData input:hover{
+	background-color: #FF6200;
+	cursor: pointer;
+	color: black;
+}
+
+#DataFrame ,.InfoLabels, .InfoData{
+	display: inline-block;
+}
+
+#AccountAvatar{
+    float: left;
+    height: 50vh;
+    position: relative;
+    width: 30%;
+}
+#AccountAvatar img{
+   	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#sendPm{
+	width: 100%;
+	height: 5.0vh;
+	background-color: #0071ff;
+	border: 0px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #1A1A1A;
+	font-size: 2.0vh;
+}
+#sendPm:hover{
+	background-color: #308CFF;
+}
+.DetailLabel{
+	display: inline-block;
+	width: 11vh;
+	color: #0071ff;
+}
+.DetailInput{
+	
+	width: 40%;
+	display: inline;
+}
+
+.DetailObjects{
+
+	width: 100%;
+	display: inline-block;
+	padding: 1vh;
+}
+#AccountName{
+	color: #0071ff;
+}
+#AccountInfo{
+	overflow: hidden;
+	width: 68%;
+	float: left;
+	font-size: 1.7vh;
+	padding: 1vh;
+	height: 53.00vh;
+}
+#NameObject{
+	font-size: 3vh;
+	padding: 0px;
+	padding-left: 1vh;
+}
+
+#AvatarImgFrame{
+	background-color: grey;
+	height: 50vh;
+}
+#AccountAvatar input{
+	margin-bottom: 3px;
+}
+#AccountAvatar input:hover{
+	cursor: pointer;
+}
+#EditProf{
+	width: 100%;
+	height: 5.0vh;
+	background-color: #0071ff;
+	border: 0px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #1A1A1A;
+	font-size: 2.0vh;
+}
+#EditProf:hover{
+	background-color: #308CFF;
+}
+#EnterC{
+	width: 100%;
+	height: 5.0vh;
+	background-color: #FF6200;
+	border: 0px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #1A1A1A;
+	font-size: 2.0vh;
+}
+#EnterC:hover{
+	background-color: #CC4E00;
+	cursor: pointer;
+}
+#botter{
+	display: none;
+	background-color: transparent;
+}
+#DetailAboutNew{
+	width: 400px;
+	height: 200px;
+	display: block;
+}
+#saveEditAbout{
+	height: 25px;
+	width: 60px;
+}
+#cancelAbout{
+	height: 25px;
+	width: 60px;
+}
+#CharBuilderParentEdit{
+	background: url("../images/char_elements/bg.png");
+	position: absolute;
+	width: 648px;
+	height: 648px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 99;
+}
+#newCharSave{
+	margin-left: 1px;
+	width: 100px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 15px;
+	height: 28px;
+}
+#newCharSave:hover{
+	cursor: pointer;
+}
+#changeDesc{
+	background-color: #eeeeee;
+	width: 50vh;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	left: 0;
+	right: 0;
+	padding: 2vh;
+	height: 25vh;
+	z-index: 999;
+	border: 1px solid #666666;
+}
+#changeDesc form{
+	display: block;
+	height: 100%;
+}
+#changeDesc textarea{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	height: 90%;
+	font-size: 1.3vh;
+}
+#changeDesc input{
+	float: right;
+	height: 2vh;
+	width: 10vh;
+	font-size: 1.1vh;
+	padding: 0px;
+}
+#DetailAbout{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#newInfo{
+	display: inline-block;
+	color: grey;
+	font-size: 1.1vh;
+	line-height: 2vh;
+	float: right;
+	text-align: left;
+	width: 100%;
+}
+#sendPMForm{
+	position: absolute;
+	display: block;
+	width: 65vh;
+	height: 35vh;
+	background-color: #eeeeee;
+	border: 1px #0071ff solid;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 50;
+	padding: 15px;
+}
+#sendPMForm textarea{
+	width: 100%;
+	height: 50%;
+	font-size: 1.2vh;
+	padding: 0.3vh;
+	margin-top: 2vh;
+}
+#toUser{
+	color: #0071ff;
+	font-size: 1.4vh;
+}
+#sendPMForm input:not(#cancelBts){
+	font-size: 1.1vh;
+	width: 9vh;
+	height: 2vh;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 1.7vh;
+}
+.g-recaptcha{
+	float: right;
+	margin-top: 2vh;
+}
+#cancelBts{
+	position: absolute;
+	right: 10vh;
+	bottom: 0;
+	height: 2vh;
+	width: 9vh;
+	margin: 1.7vh;
+	font-size: 1.1vh;
+}
+#errorMessage{
+	padding: 0.3vh;
+	border-radius: 4px;
+	height: 4vh;
+	position: absolute;
+	line-height: 4vh;
+}
+.successMsg{
+	background-color: #69D66D;
+	color: black;
+	font-size: 1.3vh;
+	width: 30vh;
+}
+#dismissal{
+	position: absolute;
+	z-index: 9999;
+	bottom: 0;
+	right: 0;
+	font-size: 1.1vh;
+	color: #545454;
+	line-height: 1.6vh;
+	margin-right: 1vh;
+}
+.failMsg{
+	background-color: #D66969;
+	color: black;
+	font-size: 1.3vh;
+	width: 30vh;
+}
+#MainHeaderLogo{
+	display: inline;
+	padding: 15.037px;
+	width: 100%;
+}
+#MainHeaderLogo img{
+	height: 12vh;
+	text-align: left;
+}
+#headerTime{
+	margin-right: -15.037px;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	width: 24%;
+	vertical-align: top;
+}
+
+#iTime{
+	color: white;
+	font-size: 8vh;
+	line-height: 6.2vh;
+
+	}
+#iDay{	
+	color: #0071ff;
+	font-size: 3vh;
+	line-height: 3.6vh; 
+	height: 3.6vh;
+}
+#MyData{
+	display: inline-block;
+	vertical-align: top;
+	width: 11vh;
+		padding: 1vh;
+}
+#myDataItem{
+	font-size: 1.4vh;
+	width: 11vh;
+	height: 3vh;
+	background-color: transparent;
+	border: 0px;
+	cursor: pointer;
+	color: #E8E8E8;
+	text-align: left;
+}
+#myDataItem:focus{
+	outline: none;
+}
+.newYes{
+	color: red;
+}
+#messagesBody{
+	background-color: #eeeeee;
+	position: absolute;
+	width: 95vh;
+	height: 55vh;
+	z-index: 9999;
+	border: black solid 1px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+#threadMain{
+	border-bottom: 1px solid #9EC9FF;		
+	height: 6vh;
+	width: 100%;
+	background-color: #D7E6FA;
+}
+#threadMainNew{
+	border-bottom: 1px solid #9EC9FF;		
+	height: 6vh;
+	width: 100%;
+	background-color: #7EB4F7;
+		font-weight: bold;
+}
+
+#threadMain:hover,#threadMainNew:hover{
+	background-color: #F5D29A;
+	cursor: pointer;
+}
+#threadFrom{
+	text-align: left;
+	font-size: 1.3vh;
+	vertical-align: middle;
+	color: #525252;
+}
+#threadLastTime{
+	font-size: 1vh;
+	text-align: left;
+	height: 1.5vh;
+	vertical-align: bottom;
+	line-height: 2vh;
+	color: #808080;
+}
+#threadData{
+	width: 20vh;
+	height: 6vh;
+}
+#threadLast{
+	padding: 2vh;
+	width: 100%;
+	font-size: 1.3vh;
+}
+#threadStatus{
+	text-align: right;
+	float: right;
+	padding: 1.5vh;
+	height: 3vh;
+	margin-left: 88vh;
+	font-size: 1.2vh;
+	margin-top: -6vh;
+	color: grey;
+}
+#threadStatusNew{
+	text-align: right;
+	float: right;
+	padding: 1.5vh;
+	height: 3vh;
+	margin-left: 88vh;
+	font-size: 1.2vh;
+	margin-top: -6vh;
+	
+}
+#threadMessage{
+	margin-left: 20vh;
+	margin-top: -6vh;
+	width: 66vh;
+	height: 6vh;
+}
+#msBox{
+	width: 100%;
+	height: 100%;
+	background-color
+}
+#Secondary{
+		vertical-align: middle;
+	line-height: 2vh;
+	width: 20vh;
+	display: inline-block;
+}
+#Primary{
+	display: inline-block;
+	width: 68vh;
+	height: 4vh;
+	line-height: 4vh;
+}
+
+#msBody,#msBodyMy{
+	background-color: #94C3FF;
+	border: 0.2vh solid #DBDBDB;
+	width: 95%;
+	margin: 1vh;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	height: 4vh;
+	padding: 0.5vh;
+}
+#msBodyMy{
+	background-color: #E8E8E8;
+	border: 0.2vh solid #BABABA;
+	height: 4vh;
+
+}
+#msSender, #msSenderMyself{
+	font-size: 1.4vh;
+	color: #424242;
+}
+#msDate{
+	display: inline;
+	font-size: 1vh;
+	color: #707070;
+}
+#msMessage{
+	display: inline-block;
+	color: #333333;
+	font-size: 1.3vh;
+	width: 100%;
+	height: 100%;
+}
+#msReply{
+	height: 20vh;
+}
+#msReply textarea{
+	height: 10vh;
+	width: 94.5%;
+	margin-left: 1.8vh;
+	padding: 0.5vh;
+	font-size: 1.3vh;
+}
+#msReply input{
+	width: 10vh;
+	height: 2.5vh;
+	float: right;
+	font-size: 1.4vh;
+	margin: 3.4vh;
+	margin-top: 0vh;
+}
+#msMain{
+	overflow-y: scroll;
+	height: 63%;
+}
+#controls{
+	text-align: right;
+	font-size: 1vh;
+	height: 6%;
+	line-height: 3vh;
+	margin-bottom: 1vh;
+	background-color
+}
+#autoref{
+	line-height: 3vh;
+	width: 4vh;
+	vertical-align: middle;
+}
+#refresh,#msgBack{
+	font-size: 1.3vh;
+	vertical-align: middle;
+	margin-right: 4vh;
+	height: 2vh;
+	width: 7vh;
+}
+#msgClose{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	height: 3vh;
+	vertical-align: middle;
+	width: 4vh;
+	font-size: 3vh;
+}
+#msgClose:hover{
+	color: #0071ff;
+	cursor: pointer;
+}
+#msgBack{
+	margin-right: 61.2vh;
+}

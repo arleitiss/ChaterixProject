@@ -1,0 +1,54 @@
+#AdminPanel{
+    background-color: #eeeeee;
+    position: absolute;
+    left: 0;
+    top: 40vh;
+    height: 14vh;
+    width: 25vh;
+    border-radius: 5px;
+    padding: 15px;
+}
+#Title{
+    color: #0071ff;
+    font-size: 4vh;
+    text-align: center;
+}
+#AdminPanel input{
+    height: 3vh;
+    margin-top:10%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+#newsForm{
+    background-color: #eeeeee;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 55vh;;
+    border: 1px solid black;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 35vh;
+    padding: 15px;
+    z-index: 9999;
+}
+#newsForm input,textarea{
+    display: block;
+    width: 40vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 1.1vh;
+}
+#newsForm input{
+    height: 3vh;
+}
+#newsForm textarea{
+    height: 18vh;
+}
